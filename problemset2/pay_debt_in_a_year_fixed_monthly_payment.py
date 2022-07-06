@@ -31,11 +31,15 @@
 '''
 balance = 3329
 annualInterestRate = 0.2
-
+'''
+Function to calculate the least amount (+/- 10) of fixed montly payment to pay off 
+the whole credit card balance in a year.
+'''
 def lowestPayment(balance, annualInterestRate):
     monthlyInterestRate = annualInterestRate / 12.0
     minimumFixedMonthlyPayment = 0
     remaining_balance = balance
+	# this loop lets the balance be negative, but that's allright according to the excercise authors
     while remaining_balance > 0:
         minimumFixedMonthlyPayment += 10
         months = 12
