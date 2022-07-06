@@ -36,7 +36,9 @@
 balance = 484
 annualInterestRate = 0.2
 monthlyPaymentRate = 0.04
-
+'''
+Function to calculate the balance on a credit card that remains after one year of paying it off
+'''
 def remainingBalance(balance, annualInterestRate, monthlyPaymentRate):
     months = 12
     monthlyInterestRate = annualInterestRate / 12.0
