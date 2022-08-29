@@ -1,5 +1,5 @@
 # MITx_6.00.1x
-My programs from Introduction to Computer Science and Programming Using Python edX course. I took the course without certification, just to refresh the programmistic knowledge I gained during studying maths and cog-sci.
+My programs from edX course ,,Introduction to Computer Science and Programming Using Python''. I took the course without certification, just to refresh the programmistic knowledge I gained during studying maths and cog-sci.
 
 It helped me reassure myself I like to think algorithmically. 
 
